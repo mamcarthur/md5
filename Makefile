@@ -6,7 +6,7 @@
 #    By: mmcarthu <mmcarthu@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/23 22:33:23 by mmcarthu          #+#    #+#              #
-#    Updated: 2019/05/24 00:25:12 by mmcarthu         ###   ########.fr        #
+#    Updated: 2019/05/24 00:20:35 by mmcarthu         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,8 +31,7 @@ $(NAME):
 clean:
 	@make clean -C libftprintf
 
-fclean:
-	@make fclean -C libftprintf
+fclean: clean
 	@rm -f $(NAME)
 
 re: fclean all
