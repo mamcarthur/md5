@@ -32,7 +32,7 @@ Modes:
 `-r` reverse format--prints the hash first, then reprints the message after  
 `-s` take string instead of a file  
 
-#Examples
+# Examples
 
 ```bash
 $ ./ft_ssl md5 -s "haha"
